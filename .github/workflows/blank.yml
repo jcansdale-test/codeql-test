@@ -16,4 +16,3 @@ jobs:
         uses: github/codeql-action/init@v1
         with:
           languages: javascript
-          token: ${{ secrets.CODEQL_TOKEN }}
